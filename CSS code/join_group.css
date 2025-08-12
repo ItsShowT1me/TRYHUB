@@ -1,0 +1,35 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6A11CB, #2575FC);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.return-btn {
+    position: absolute;
+    right: 22vw;
+    bottom: 18vh;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-size: 1em;
+}
+
+.container {
+    position: relative;
+}
+
+
+.container.mt-5 h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.mb-3 label {
+    font-weight: 600;
+    color: #fff;
+}
